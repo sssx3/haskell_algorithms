@@ -1,8 +1,10 @@
 module Main where
 
 import Basics.BasicLoop
-import Sorting.BubbleSort
+import MyMath.Factorial
 
 main :: IO ()
 main = do
-    loop 10 bubbleSort
+    putStrLn( show ( fact(5) ) )
+
+
